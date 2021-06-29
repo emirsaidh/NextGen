@@ -20,4 +20,6 @@ public class SphereMovement : MonoBehaviour
         direction.y = Input.GetAxis("Fire1");//up and down Positive button: "e", negative button: "q" 
         rb.AddForce(direction * force);
     }
+
+
 }
