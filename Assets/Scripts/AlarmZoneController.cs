@@ -15,7 +15,7 @@ public class AlarmZoneController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "robotSphere") //otherwise OnTriggerEnter works 1 time on the start
+        if (other.gameObject.name == "PBRCharacter") //otherwise OnTriggerEnter works 1 time on the start
         {                                           //i could not solve it(collides with "default" named object)
             alarmSound.Play(0);
             alarmSound.loop = true;

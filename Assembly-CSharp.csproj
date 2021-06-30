@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -46,7 +47,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Scripts\MoveByMouseClick.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Jammo-Character\Scripts\MovementInput.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -769,6 +772,12 @@
     </Reference>
     <Reference Include="Unity.Recorder">
         <HintPath>/home/dadash/İndirilenler/staj_projesi_starter/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NavMeshComponents">
+        <HintPath>/home/dadash/İndirilenler/staj_projesi_starter/Library/ScriptAssemblies/NavMeshComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="NavMeshComponentsEditor">
+        <HintPath>/home/dadash/İndirilenler/staj_projesi_starter/Library/ScriptAssemblies/NavMeshComponentsEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

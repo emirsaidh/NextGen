@@ -7,6 +7,7 @@ public class ApplyingForceMode : MonoBehaviour
     private Rigidbody rb;
     public float forceAmount = 5.0f;
     public ForceModes modes;
+    
     public enum ForceModes
     {
         force,
