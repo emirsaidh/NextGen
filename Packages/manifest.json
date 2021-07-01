@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.unity.ads": "3.7.1",
+    "com.unity.ai.navigation.components": "https://github.com/Unity-Technologies/NavMeshComponents.git#package",
     "com.unity.analytics": "3.5.3",
     "com.unity.cinemachine": "2.6.5",
     "com.unity.collab-proxy": "1.5.7",
@@ -8,7 +9,7 @@
     "com.unity.ide.rider": "2.0.7",
     "com.unity.ide.visualstudio": "2.0.8",
     "com.unity.ide.vscode": "1.2.3",
-    "com.unity.postprocessing": "2.3.0",
+    "com.unity.postprocessing": "3.1.1",
     "com.unity.purchasing": "3.2.1",
     "com.unity.recorder": "2.5.5",
     "com.unity.test-framework": "1.1.24",
@@ -45,7 +46,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.unity.ai.navigation.components": "https://github.com/Unity-Technologies/NavMeshComponents.git#package"
+    "com.unity.modules.xr": "1.0.0"
   }
 }

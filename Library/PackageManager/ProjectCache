@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637606743340000000
-    m_Hash: 4275956515
+      ticks: 637607342790000000
+    m_Hash: 4166652189
   m_LockFileStatus:
     m_FilePath: "/home/dadash/\u0130ndirilenler/staj_projesi_starter/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637606743660000000
-    m_Hash: 4041016729
+      ticks: 637607342790000000
+    m_Hash: 954702594
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -155,6 +155,58 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
         revision: 95ec369d16df431f8c9ebbb83c0f65dc4471f07e
+        path: 
+    - packageId: com.unity.ai.navigation.components@https://github.com/Unity-Technologies/NavMeshComponents.git#package
+      testable: 0
+      isDirectDependency: 1
+      version: 0.1.0-preview.2
+      source: 5
+      resolvedPath: "/home/dadash/\u0130ndirilenler/staj_projesi_starter/Library/PackageCache/com.unity.ai.navigation.components@0fc6f532e4"
+      assetPath: Packages/com.unity.ai.navigation.components
+      name: com.unity.ai.navigation.components
+      displayName: NavMesh Components
+      author:
+        name: Unity Technologies
+        email: 
+        url: 
+      category: 
+      type: 
+      description: High-level NavMesh components for building and using NavMeshes
+        at runtime and at edit time.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-exp.1
+        compatible:
+        - 1.0.0-exp.1
+        verified: 
+      dependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/NavMeshComponents.git
+        revision: 0c64cbdedc3056a332d85c141df89c606fec9e8c
         path: 
     - packageId: com.unity.analytics@3.5.3
       testable: 0
@@ -837,12 +889,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.postprocessing@2.3.0
+    - packageId: com.unity.postprocessing@3.1.1
       testable: 0
       isDirectDependency: 1
-      version: 2.3.0
+      version: 3.1.1
       source: 1
-      resolvedPath: "/home/dadash/\u0130ndirilenler/staj_projesi_starter/Library/PackageCache/com.unity.postprocessing@2.3.0"
+      resolvedPath: "/home/dadash/\u0130ndirilenler/staj_projesi_starter/Library/PackageCache/com.unity.postprocessing@3.1.1"
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -899,8 +951,12 @@ m_PackageAssets:
         - 3.1.0
         - 3.1.1
         verified: 3.1.1
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
       keywords: []
       registry:
         id: main
@@ -914,13 +970,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637144563160000000
+      datePublishedTicks: 637576678760000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git@github.com:Unity-Technologies/PostProcessing.git
-        revision: e6de985c41f04a5fc7c7227dd67e3e73fac834e7
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 075b452f2c4bf910a168632b3cedbd6835477ddd
         path: 
     - packageId: com.unity.purchasing@3.2.1
       testable: 0
@@ -3273,56 +3329,6 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
-        path: 
-    - packageId: com.unity.ai.navigation.components@https://github.com/Unity-Technologies/NavMeshComponents.git#package
-      testable: 0
-      isDirectDependency: 1
-      version: 0.1.0-preview.2
-      source: 5
-      resolvedPath: "/home/dadash/\u0130ndirilenler/staj_projesi_starter/Library/PackageCache/com.unity.ai.navigation.components@0fc6f532e4"
-      assetPath: Packages/com.unity.ai.navigation.components
-      name: com.unity.ai.navigation.components
-      displayName: NavMesh Components
-      author:
-        name: Unity Technologies
-        email: 
-        url: 
-      category: 
-      type: 
-      description: High-level NavMesh components for building and using NavMeshes
-        at runtime and at edit time.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.unity.modules.ai
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.ai
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/Unity-Technologies/NavMeshComponents.git
-        revision: 0c64cbdedc3056a332d85c141df89c606fec9e8c
         path: 
     - packageId: com.unity.modules.subsystems@1.0.0
       testable: 0
